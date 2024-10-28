@@ -55,12 +55,27 @@ echo "El valor de a con pre-decremento es: $a. El valor de resultado es: $result
 //asignación con operadores______________________________-
 $a = 20;
 $a += 10; //$a = $a + 10;
-echo "$a <br>";
+echo "El valor de 20 += 10 es: $a <br>";
+
+$a = 20;
 $a -= 10; 
-echo $a;
+echo "El valor de 20 -= 10 es: $a <br>";
+
+$a = 20;
+$a *= 10;
+echo "El valor de 20 *= 10 es: $a <br>";
+
+$a = 20;
+$a /= 10;
+echo "El valor de 20 /= 10 es: $a <br>";
+
+//prioridad de operadores
+$resultado = 2 + 3 * 5;
+echo "El valor de 2 + 3 * 5 es: $resultado <br>";
 
 
-
+$resultado = (2 + 3) * 5;
+echo "El valor de (2 + 3) * 5 es: $resultado <br>";
 
 
 
