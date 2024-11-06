@@ -9,4 +9,7 @@ while (!$salir) {
     $num = rand(1,500);
     echo "$num <br>";
     $salir = ($num%7 == 0); //el centinela vale verdadero si el múltiplo de 7.
+    // if ($num%7 == 0) {
+    //     $salir = true;
+    // }
 }
